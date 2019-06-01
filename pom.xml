@@ -44,12 +44,12 @@
 	</scm>
 	<distributionManagement>
   <repository>
-    <id>releases</id>
+    <id>nexus</id>
     <!-- CHANGE HERE by your team nexus server -->
     <url>http://13.127.201.253:8081/repository/paytm-release//</url>
   </repository>
   <snapshotRepository>
-    <id>snapshots</id>
+    <id>nexus</id>
     <!-- CHANGE HERE by your team nexus server -->
     <url>http://13.127.201.253:8081/repository/mavenapplication-snapshot/</url>
   </snapshotRepository>
