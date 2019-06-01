@@ -42,6 +42,18 @@
 		<tag>HEAD</tag>
 		<url>https://github.com/MithunTechnologiesDevOps/maven-standalone-application</url>
 	</scm>
+	<distributionManagement>
+  <repository>
+    <id>releases</id>
+    <!-- CHANGE HERE by your team nexus server -->
+    <url>http://13.127.201.253:8081/repository/paytm-release//</url>
+  </repository>
+  <snapshotRepository>
+    <id>snapshots</id>
+    <!-- CHANGE HERE by your team nexus server -->
+    <url>http://13.127.201.253:8081/repository/mavenapplication-snapshot/</url>
+  </snapshotRepository>
+</distributionManagement>
 
 	<issueManagement>
 		<system>GitHub</system>
